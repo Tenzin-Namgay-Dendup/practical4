@@ -37,7 +37,7 @@ def calculate_percentage_longer_than_average(content):
     return percentage
         
 
-if __name__ == "_main_":
+if __name__ == "__main__":
 
     unique_word_count = count_unique_words(content)
     longest_word = find_longest_word(content)
@@ -48,6 +48,4 @@ if __name__ == "_main_":
     print(f"Number of unique words: {unique_word_count}")
     print(f"Longest word: {longest_word}")
     print(f"Occurrences of the word 'is': {specific_word_count}")
-    print(
-        f"Percentage of words longer than average: {percentage_longer_than_average:.2f}%")
-
+    print(f"Percentage of words longer than average: {percentage_longer_than_average:.2f}%")
